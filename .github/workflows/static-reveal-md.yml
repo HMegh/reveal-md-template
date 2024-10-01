@@ -1,0 +1,27 @@
+name: Create static webpage for the presentation using reveal-md 
+
+on: 
+    push:
+        branches: ["main"]
+    workflow_dispatch: 
+
+permissions:
+    contents: write
+    pages: write
+    id-token: write
+
+jobs: 
+    build:
+        runs-on: ubuntu-latest
+        steps: 
+            - uses: actions/checkout@v2
+            - name: install npm and reveal-md
+              run: sudo npm install -g reveal-md
+            - name: build
+              run: reveal-md main.md --static slides
+            - name: GitHub pages (publish)
+              uses: peaceiris/actions-gh-pages@v4
+
+              with: 
+                github_token: ${{ secrets.GITHUB_TOKEN }}
+                publish_dir: ./slides
