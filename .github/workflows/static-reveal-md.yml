@@ -1,5 +1,4 @@
-name: Create static webpage for the presentation using reveal-md 
-
+name: build using reveal-md
 on: 
     push:
         branches: ["main"]
