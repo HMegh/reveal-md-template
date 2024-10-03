@@ -18,3 +18,38 @@
   display: block;
   text-align: left;
   margin: 0 0 0 1em; }
+
+
+.theorem {
+border: 2px solid #3498db; /* Blue border */
+background-color: #f9f9f9; /* Light grey background */
+padding: 20px;
+margin: 20px 0;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+font-family: 'Georgia', serif; /* Nice font for mathematical text */
+}
+
+.theorem-title {
+  font-weight: bold;
+  color: #2c3e50; /* Darker blue text */
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: left; /* Align title to the left */
+}
+
+.theorem-content {
+  font-size: 1em;
+  line-height: 1.6; /* Improve readability */
+  color: #333; /* Dark text color */
+  text-align: left; /* Align title to the left */
+
+
+}
+
+.theorem-content p {
+  margin: 0; /* Remove default margins in paragraphs */
+  text-align: left; /* Align title to the left */
+
+}
+

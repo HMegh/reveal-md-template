@@ -4,7 +4,7 @@ demo presentation:
 title: Demo  
 
 theme: serif
-css: css/costum.css
+css: css/custom.css
 
 center: false
 ---
@@ -85,6 +85,32 @@ You can also split the slide into two or more columns using
 
 </div>
 
+
+----
+
+You can include theorems  
+
+<div class="theorem">
+  <div class="theorem-title">Theorem 1</div>
+  <div class="theorem-content">
+    Let \( a, b \in \mathbb{R} \). If \( a^2 = b^2 \), then \( a = b \) or \( a = -b \).
+  </div>
+</div>
+
+
+
+
+<div class="theorem">
+  <div class="theorem-title">Theorem 2 (Euclid)</div>
+  <div class="theorem-content">
+   There are infinitely many primes. 
+  </div>
+</div>
+
+----
+
+<p class="theorem">This is your typical theorem, probably proved by the author of the current paper, and doesn't need any special decoration.</p>
+<p class="theorem">This is your typical theorem, probably proved by the author of the current paper, and doesn't need any special decoration.</p>
 
 ---
 
