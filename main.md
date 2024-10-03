@@ -11,10 +11,10 @@ center: false
 
 <h1> Title </h1>
 
-<h2> Haroun Meghaichi </h2>
+<h2>Your name </h2>
 
-<h6> Department of Mathematics </h6>
-<h6> The Ohio State University </h6>
+<h6> Department of XYZ </h6>
+<h6> University of ABC </h6>
 
 
 ---
