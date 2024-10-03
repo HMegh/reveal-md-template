@@ -107,11 +107,6 @@ You can include theorems
   </div>
 </div>
 
-----
-
-<p class="theorem">This is your typical theorem, probably proved by the author of the current paper, and doesn't need any special decoration.</p>
-<p class="theorem">This is your typical theorem, probably proved by the author of the current paper, and doesn't need any special decoration.</p>
-
 ---
 
 # Section 3
