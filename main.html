@@ -4,13 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>reveal-md</title>
+    <title>Demo</title>
     <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./dist/reset.css" />
     <link rel="stylesheet" href="./dist/reveal.css" />
-    <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./dist/theme/serif.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
 
+    <link rel="stylesheet" href="./_assets/css/costum.css" />
   </head>
   <body>
     <div class="reveal">
@@ -19,25 +20,86 @@
           <textarea data-template>
             
 
-Introduction
+<h1> Title </h1>
 
+<h2> Haroun Meghaichi </h2>
+
+<h6> Department of Mathematics </h6>
+<h6> The Ohio State University </h6>
 
 
 ---
-Slide 2.1
+
+# Introduction
+
+----
+
+Here's a list of items: 
+
+* Item 1
+* Item 2
+
+---
+# Section 2
+
+----
+
+### Slide 2.2
+
+You can include $\LaTeX$ either inline $x=3$ or 
+
+$$\int_{-\infty}^{\infty} \frac{1}{x^2+1}d x=\pi$$ 
 
 
 ----
 
-Slide 2.2
+### Slide 2.3
+
+You can also include code snippets 
+
+```julia
+using Plots 
+
+plot(sin,-2,2)
+```
+
+----
+
+### Slide 2.4
 
 
+<div class="container">
+<div class="col">
 
+<small>
+You can also split the slide into two or more columns using 
+
+```
+<div class="container">
+<div class="col">`
+
+</div>
+
+<div class="col">`
+
+</div>
+</div>
+
+```
+
+</small>
+</div> 
+
+<div class="col">
+
+<img src="static/peaks.png" width="100%">
+
+</div>
 
 
 ---
 
-Slide 3
+# Section 3
           </textarea>
         </section>
       </div>
@@ -89,7 +151,7 @@ Slide 3
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"_":["main.md"],"static":"slides"}, queryOptions);
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"center":true,"_":["main.md"],"static":"slides"}, queryOptions);
     </script>
 
 
